@@ -800,10 +800,10 @@ $spaces: (
 
 .ca-subheading-gradient {
   background: linear-gradient(90deg, #ffc8c6, #b3bded);
-    border-radius: 10px;
-    height: 4px;
-    margin-bottom: 16px;
-    width: 95px;
+  border-radius: 10px;
+  height: 4px;
+  margin-bottom: 16px;
+  width: 95px;
 
   // &::after {
   //   content: '';
@@ -1362,17 +1362,17 @@ $spaces: (
   }
 }
 .boxes-box {
-    padding-bottom: 20px !important;
+  padding-bottom: 20px !important;
 }
 
 .showcase-card {
-    background: #fff;
-    display: block;
-    height: 100%;
-    padding: 32px 24px;
-    position: relative;
-    transition: all .3s ease-in-out;
-    width: 100%;
+  background: #fff;
+  display: block;
+  height: 100%;
+  padding: 32px 24px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
 
   &:hover {
     border-radius: 0 0 100px 0;
