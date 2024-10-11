@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="314" height="142" viewBox="0 0 314 142">
+  <defs>
+    <clipPath id="clip-will-generator-nominee-management">
+      <rect width="314" height="142"/>
+    </clipPath>
+  </defs>
+  <g id="will-generator-nominee-management" clip-path="url(#clip-will-generator-nominee-management)">
+    <rect id="Rectangle_3" data-name="Rectangle 3" width="314" height="142" rx="15" fill="#faf9f6"/>
+    <text id="Keep_Will_Updated" data-name="Keep Will Updated" transform="translate(24 17)" fill="#46cbe6" font-size="20" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="21">Keep Will Updated</tspan></text>
+    <g id="Group_146" data-name="Group 146" transform="translate(252.183 9.827)">
+      <path id="Path_58" data-name="Path 58" d="M28.644,10H13.173a11.173,11.173,0,0,0,0,22.346h15.47a11.173,11.173,0,0,0,0-22.346Z" transform="translate(0 0)" fill="#4caf50"/>
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="9.5" cy="9.5" r="9.5" transform="translate(19 12)" fill="#e8f5e9"/>
+    </g>
+    <text id="Manage_Heirs_Nominees" data-name="Manage Heirs &amp; Nominees" transform="translate(24 54)" fill="#46cbe6" font-size="16" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="17">Manage Heirs &amp; Nominees</tspan></text>
+    <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(23 83)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0.306">
+      <rect width="268" height="37" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="267" height="36" rx="1.5" fill="none"/>
+    </g>
+    <text id="Dikhsa_Sharma" data-name="Dikhsa Sharma" transform="translate(39 90)" fill="#adadad" font-size="16" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="17">Dikhsa Sharma</tspan></text>
+    <g id="Group_147" data-name="Group 147" transform="translate(266.324 -3.141)">
+      <path id="Path_59" data-name="Path 59" d="M13.139,101.357l-.437-.44a.732.732,0,0,0-1.033,0l-4.989,4.989-4.995-4.995a.732.732,0,0,0-1.033,0l-.437.438a.731.731,0,0,0,0,1.033l5.947,5.969a.747.747,0,0,0,.518.234h0a.746.746,0,0,0,.516-.234l5.942-5.952a.738.738,0,0,0,.213-.522.73.73,0,0,0-.213-.519Z" transform="translate(0)" fill="#868686"/>
+    </g>
+  </g>
+</svg>

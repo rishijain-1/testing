@@ -1,0 +1,15 @@
+npm run format ||
+{
+    echo 'failed to format '
+    false;
+}
+npm run check-format ||
+{
+    echo 'failed Prettier check'
+    false;
+}
+npm run check-lint ||
+{
+    echo 'failed Lint check'
+    false;
+}

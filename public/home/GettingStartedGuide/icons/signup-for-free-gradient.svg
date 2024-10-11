@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="56" viewBox="0 0 56 56">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#03d0fa"/>
+      <stop offset="1" stop-color="#006eff"/>
+    </linearGradient>
+    <clipPath id="clip-signup-for-free">
+      <rect width="56" height="56"/>
+    </clipPath>
+  </defs>
+  <g id="signup-for-free" clip-path="url(#clip-signup-for-free)">
+    <g id="Group_137" data-name="Group 137" transform="translate(-4 -4)">
+      <path id="Path_50" data-name="Path 50" d="M54,8.15H10a6.007,6.007,0,0,0-6,6V41.083a6.007,6.007,0,0,0,6,6H25.01a1.006,1.006,0,0,1,.857.484l4.42,7.327a2.012,2.012,0,0,0,3.426,0l4.42-7.327a1,1,0,0,1,.856-.484H54a6.007,6.007,0,0,0,6-6V14.15a6.007,6.007,0,0,0-6-6Zm4,32.933a4,4,0,0,1-4,4H38.99a3.017,3.017,0,0,0-2.57,1.45L32,53.861l-4.42-7.328a3.018,3.018,0,0,0-2.57-1.45H10a4,4,0,0,1-4-4V14.15a4,4,0,0,1,4-4H54a4,4,0,0,1,4,4Z" fill="url(#linear-gradient)"/>
+      <path id="Path_51" data-name="Path 51" d="M54,12.15H49.572a1,1,0,0,0,0,2H54v4.37a1,1,0,1,0,2,0V14.15a2,2,0,0,0-2-2ZM24.775,27.465c8.047-.256,8.045-11.924,0-12.18C16.727,15.542,16.729,27.211,24.775,27.465Zm0-10.18a4.09,4.09,0,1,1-4.09,4.09A4.09,4.09,0,0,1,24.775,17.285ZM27.933,29.23H21.617a7.2,7.2,0,0,0-7.19,7.19v1.527a2,2,0,0,0,2,2h16.7a2,2,0,0,0,2-2V36.42a7.2,7.2,0,0,0-7.19-7.19Zm5.19,8.717h-16.7V36.42a5.2,5.2,0,0,1,5.19-5.19h6.315a5.2,5.2,0,0,1,5.19,5.19ZM48.572,26.616h-5v-5a1,1,0,0,0-2,0v5h-5a1,1,0,0,0,0,2h5v5a1,1,0,0,0,2,0v-5h5a1,1,0,0,0,0-2Z" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

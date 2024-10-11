@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="56" viewBox="0 0 56 56">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#03d0fa"/>
+      <stop offset="1" stop-color="#006eff"/>
+    </linearGradient>
+    <clipPath id="clip-all-round-support">
+      <rect width="56" height="56"/>
+    </clipPath>
+  </defs>
+  <g id="all-round-support" clip-path="url(#clip-all-round-support)">
+    <g id="Group_139" data-name="Group 139" transform="translate(1.502 1.502)">
+      <path id="Layer_2" data-name="Layer 2" d="M39.1,13.374H13.9A4.9,4.9,0,0,0,9,18.239V40.094a4.9,4.9,0,0,0,4.9,4.865h2.975v2.712a3.325,3.325,0,0,0,1.907,3.01A3.5,3.5,0,0,0,20.216,51a3.272,3.272,0,0,0,2.1-.77l6.334-5.249h10.5A4.9,4.9,0,0,0,44,40.094V18.238a4.9,4.9,0,0,0-4.9-4.865ZM30,35H17.748a1.75,1.75,0,0,1,0-3.5H30A1.75,1.75,0,1,1,30,35Zm5.249-7.577h-17.5a1.75,1.75,0,1,1,0-3.5h17.5a1.75,1.75,0,0,1,0,3.5ZM5.5,35.964a3.5,3.5,0,0,1-3.5-3.5V24.59a3.5,3.5,0,0,1,3.5-3.5Zm42-14.874V35.964a3.5,3.5,0,0,0,3.5-3.5V24.59A3.5,3.5,0,0,0,47.5,21.091ZM35.247,9.874V3.75a1.75,1.75,0,1,1,3.5,0V9.874Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
