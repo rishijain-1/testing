@@ -157,81 +157,81 @@ const DigitalLegacyProtection = () => {
                               secure environment for storing important
                               information, as
                             </p>
-                            <ul class="ail-tab-con_list list-unstyled">
-                              <li class="d-flex align-items-center gap-3">
+                            <ul className="ail-tab-con_list list-unstyled">
+                              <li className="d-flex align-items-center gap-3">
                                 <span>
                                   <i
-                                    class="fa-solid fa-chevron-right"
+                                    className="fa-solid fa-chevron-right"
                                     aria-hidden="true"
                                   ></i>
                                 </span>
-                                <p class="text-black mb-0">
+                                <p className="text-black mb-0">
                                   <strong>Investment documents</strong> Includes
                                   real estate, bank savings, LIC policies, fixed
                                   deposits, gold, and mutual funds.
                                 </p>
                               </li>
-                              <li class="d-flex align-items-center gap-3">
+                              <li className="d-flex align-items-center gap-3">
                                 <span>
                                   <i
-                                    class="fa-solid fa-chevron-right"
+                                    className="fa-solid fa-chevron-right"
                                     aria-hidden="true"
                                   ></i>
                                 </span>
-                                <p class="text-black mb-0">
+                                <p className="text-black mb-0">
                                   <strong>Insurance documents</strong> Covers
                                   health insurance, term insurance, life
                                   insurance, and vehicle insurance policies.
                                 </p>
                               </li>
-                              <li class="d-flex align-items-center gap-3">
+                              <li className="d-flex align-items-center gap-3">
                                 <span>
                                   <i
-                                    class="fa-solid fa-chevron-right"
+                                    className="fa-solid fa-chevron-right"
                                     aria-hidden="true"
                                   ></i>
                                 </span>
-                                <p class="text-black mb-0">
+                                <p className="text-black mb-0">
                                   <strong>Account passwords</strong> Secure
                                   storage for online banking, social media
                                   accounts, email accounts, and subscription
                                   services.
                                 </p>
                               </li>
-                              <li class="d-flex align-items-center gap-3">
+                              <li className="d-flex align-items-center gap-3">
                                 <span>
                                   <i
-                                    class="fa-solid fa-chevron-right"
+                                    className="fa-solid fa-chevron-right"
                                     aria-hidden="true"
                                   ></i>
                                 </span>
-                                <p class="text-black mb-0">
+                                <p className="text-black mb-0">
                                   <strong>Cryptocurrencies</strong> Safeguards
                                   your Bitcoin, Ethereum, and other digital
                                   currency holdings.
                                 </p>
                               </li>
-                              <li class="d-flex align-items-center gap-3">
+                              <li className="d-flex align-items-center gap-3">
                                 <span>
                                   <i
-                                    class="fa-solid fa-chevron-right"
+                                    className="fa-solid fa-chevron-right"
                                     aria-hidden="true"
                                   ></i>
                                 </span>
-                                <p class="text-black mb-0">
+                                <p className="text-black mb-0">
                                   <strong>Digital documents</strong> Manages
                                   wills, property deeds, legal agreements, and
                                   personal identification documents.
                                 </p>
                               </li>
-                              <li class="d-flex align-items-center gap-3">
+                              <li className="d-flex align-items-center gap-3">
                                 <span>
                                   <i
-                                    class="fa-solid fa-chevron-right"
+                                    className="fa-solid fa-chevron-right"
                                     aria-hidden="true"
                                   ></i>
                                 </span>
-                                <p class="text-black mb-0">
+                                <p className="text-black mb-0">
                                   <strong>And More:</strong> Extend protection
                                   to any other valuable documents or digital
                                   assets you may have.
@@ -276,55 +276,55 @@ const DigitalLegacyProtection = () => {
                               your loved ones. A Will serves the following key
                               functions
                             </p>
-                            <ul class="ail-tab-con_list list-unstyled">
-                              <li class="d-flex align-items-center gap-3">
+                            <ul className="ail-tab-con_list list-unstyled">
+                              <li className="d-flex align-items-center gap-3">
                                 <span>
                                   <i
-                                    class="fa-solid fa-chevron-right"
+                                    className="fa-solid fa-chevron-right"
                                     aria-hidden="true"
                                   ></i>
                                 </span>
-                                <p class="text-black mb-0">
+                                <p className="text-black mb-0">
                                   <strong>Clear Asset Distribution:</strong>{' '}
                                   Clearly communicates your wishes for asset
                                   distribution to your loved ones.{' '}
                                 </p>
                               </li>
-                              <li class="d-flex align-items-center gap-3">
+                              <li className="d-flex align-items-center gap-3">
                                 <span>
                                   <i
-                                    class="fa-solid fa-chevron-right"
+                                    className="fa-solid fa-chevron-right"
                                     aria-hidden="true"
                                   ></i>
                                 </span>
-                                <p class="text-black mb-0">
+                                <p className="text-black mb-0">
                                   <strong>Asset Clarity:</strong> Ensures
                                   clarity on the list of assets, preventing your
                                   assets &amp; money from ending up in unclaimed
                                   accounts.{' '}
                                 </p>
                               </li>
-                              <li class="d-flex align-items-center gap-3">
+                              <li className="d-flex align-items-center gap-3">
                                 <span>
                                   <i
-                                    class="fa-solid fa-chevron-right"
+                                    className="fa-solid fa-chevron-right"
                                     aria-hidden="true"
                                   ></i>
                                 </span>
-                                <p class="text-black mb-0">
+                                <p className="text-black mb-0">
                                   <strong>Dispute Prevention:</strong> Reduces
                                   the chances of disputes and legal battles
                                   among family members.
                                 </p>
                               </li>
-                              <li class="d-flex align-items-center gap-3">
+                              <li className="d-flex align-items-center gap-3">
                                 <span>
                                   <i
-                                    class="fa-solid fa-chevron-right"
+                                    className="fa-solid fa-chevron-right"
                                     aria-hidden="true"
                                   ></i>
                                 </span>
-                                <p class="text-black mb-0">
+                                <p className="text-black mb-0">
                                   <strong>Empowered Decision-Making:</strong>{' '}
                                   Empowers you to make key decisions, including
                                   the appointment of a Guardian for minor
@@ -370,15 +370,15 @@ const DigitalLegacyProtection = () => {
                               your privacy is maintained, IAmStillAlive platform
                               provides
                             </p>
-                            <ul class="ail-tab-con_list list-unstyled">
-                              <li class="d-flex align-items-center gap-3">
+                            <ul className="ail-tab-con_list list-unstyled">
+                              <li className="d-flex align-items-center gap-3">
                                 <span>
                                   <i
-                                    class="fa-solid fa-chevron-right"
+                                    className="fa-solid fa-chevron-right"
                                     aria-hidden="true"
                                   ></i>
                                 </span>
-                                <p class="text-black mb-0">
+                                <p className="text-black mb-0">
                                   <strong>Secure Digital Legacy:</strong> With
                                   IAmStillAlive, your digital assets are
                                   protected from being lost or mishandled,
@@ -386,14 +386,14 @@ const DigitalLegacyProtection = () => {
                                   safe and secure.
                                 </p>
                               </li>
-                              <li class="d-flex align-items-center gap-3">
+                              <li className="d-flex align-items-center gap-3">
                                 <span>
                                   <i
-                                    class="fa-solid fa-chevron-right"
+                                    className="fa-solid fa-chevron-right"
                                     aria-hidden="true"
                                   ></i>
                                 </span>
-                                <p class="text-black mb-0">
+                                <p className="text-black mb-0">
                                   <strong>AI Wellness Alerts:</strong> Our AI
                                   Wellness checker system immediately notifies
                                   your loved ones in case of an emergency,
@@ -401,14 +401,14 @@ const DigitalLegacyProtection = () => {
                                   crucial decisions without delay.
                                 </p>
                               </li>
-                              <li class="d-flex align-items-center gap-3">
+                              <li className="d-flex align-items-center gap-3">
                                 <span>
                                   <i
-                                    class="fa-solid fa-chevron-right"
+                                    className="fa-solid fa-chevron-right"
                                     aria-hidden="true"
                                   ></i>
                                 </span>
-                                <p class="text-black mb-0">
+                                <p className="text-black mb-0">
                                   <strong>
                                     Preserved Privacy and Peace of Mind:
                                   </strong>{' '}
@@ -459,29 +459,29 @@ const DigitalLegacyProtection = () => {
                               instructions for accessing key assets, with AI
                               assistance for clarity.
                             </p>
-                            <ul class="ail-tab-con_list list-unstyled">
-                              <li class="d-flex align-items-center gap-3">
+                            <ul className="ail-tab-con_list list-unstyled">
+                              <li className="d-flex align-items-center gap-3">
                                 <span>
                                   <i
-                                    class="fa-solid fa-chevron-right"
+                                    className="fa-solid fa-chevron-right"
                                     aria-hidden="true"
                                   ></i>
                                 </span>
-                                <p class="text-black mb-0">
+                                <p className="text-black mb-0">
                                   <strong>End-to-End Encryption:</strong> All
                                   your data is secured with top-tier encryption,
                                   ensuring that only you and your authorized
                                   loved ones have access.
                                 </p>
                               </li>
-                              <li class="d-flex align-items-center gap-3">
+                              <li className="d-flex align-items-center gap-3">
                                 <span>
                                   <i
-                                    class="fa-solid fa-chevron-right"
+                                    className="fa-solid fa-chevron-right"
                                     aria-hidden="true"
                                   ></i>
                                 </span>
-                                <p class="text-black mb-0">
+                                <p className="text-black mb-0">
                                   <strong>Confidential Instructions:</strong>{' '}
                                   Store detailed instructions on how your loved
                                   ones can access investments, insurance,
@@ -489,14 +489,14 @@ const DigitalLegacyProtection = () => {
                                   securely managed within the platform.
                                 </p>
                               </li>
-                              <li class="d-flex align-items-center gap-3">
+                              <li className="d-flex align-items-center gap-3">
                                 <span>
                                   <i
-                                    class="fa-solid fa-chevron-right"
+                                    className="fa-solid fa-chevron-right"
                                     aria-hidden="true"
                                   ></i>
                                 </span>
-                                <p class="text-black mb-0">
+                                <p className="text-black mb-0">
                                   <strong>AI-Powered Guidance:</strong> Utilize
                                   advanced AI technology to create clear and
                                   understandable instructions, so your loved
@@ -504,14 +504,14 @@ const DigitalLegacyProtection = () => {
                                   absence.
                                 </p>
                               </li>
-                              <li class="d-flex align-items-center gap-3">
+                              <li className="d-flex align-items-center gap-3">
                                 <span>
                                   <i
-                                    class="fa-solid fa-chevron-right"
+                                    className="fa-solid fa-chevron-right"
                                     aria-hidden="true"
                                   ></i>
                                 </span>
-                                <p class="text-black mb-0">
+                                <p className="text-black mb-0">
                                   <strong>Complete Privacy Assurance:</strong>{' '}
                                   Rest easy knowing that your information
                                   remains private and protected, with no

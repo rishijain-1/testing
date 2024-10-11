@@ -96,7 +96,7 @@ const FeedbackTitle = () => {
           <div className="col-lg-6">
             <div className="text-center mb-5">
               <div>
-                <span class="span-arrow text-pink ail-highlighted-text">
+                <span className="span-arrow text-pink ail-highlighted-text">
                   Custome Feedback
                 </span>
                 <img

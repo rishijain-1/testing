@@ -15,7 +15,7 @@ const Pricing = () => {
               <div className="section-title text-center text-lg-start">
                 <h2 className="mb-0 sc-heading-color clr-text">
                   Choose the{' '}
-                  <make class="ail-highlighted-text">Plan that’s </make>Right
+                  <make className="ail-highlighted-text">Plan that’s </make>Right
                   for you
                 </h2>
               </div>
@@ -76,7 +76,7 @@ const Pricing = () => {
                 <div className={`pricing-amount ${pricingType}`}>
                   <h1 className="d-inline-block mb-3">
                     <i
-                      class="fa-solid fa-indian-rupee-sign"
+                      className="fa-solid fa-indian-rupee-sign"
                       aria-hidden="true"
                     ></i>
                     {pricingType === 'yearly' ? '0' : '0'}
@@ -86,83 +86,83 @@ const Pricing = () => {
                   </h5>
                 </div>
                 <h6 className="mb-4">What&apos;s included</h6>
-                <ul class="pricing-features mb-40 list-unstyled">
+                <ul className="pricing-features mb-40 list-unstyled">
                   <li>
-                    <span class="me-3">
+                    <span className="me-3">
                       <i
-                        class="fa-solid fa-circle-check"
+                        className="fa-solid fa-circle-check"
                         aria-hidden="true"
                       ></i>
                     </span>
                     Create Up to <strong>1</strong> Asset or Document
                   </li>
                   <li>
-                    <span class="me-3">
+                    <span className="me-3">
                       <i
-                        class="fa-solid fa-circle-check"
+                        className="fa-solid fa-circle-check"
                         aria-hidden="true"
                       ></i>
                     </span>
                     Allowed Document Size: <strong>1 MB</strong> Per File
                   </li>
                   <li>
-                    <span class="me-3">
+                    <span className="me-3">
                       <i
-                        class="fa-solid fa-circle-check"
+                        className="fa-solid fa-circle-check"
                         aria-hidden="true"
                       ></i>
                     </span>
                     Upload Up to <strong>1 File</strong> Per Asset
                   </li>
                   <li>
-                    <span class="me-3">
+                    <span className="me-3">
                       <i
-                        class="fa-solid fa-circle-check"
+                        className="fa-solid fa-circle-check"
                         aria-hidden="true"
                       ></i>
                     </span>
                     <strong>Lifetime</strong> Wellness checker
                   </li>
                   <li>
-                    <span class="me-3">
+                    <span className="me-3">
                       <i
-                        class="fa-solid fa-circle-check"
+                        className="fa-solid fa-circle-check"
                         aria-hidden="true"
                       ></i>
                     </span>
                     Lifetime notifications
                   </li>
                   <li>
-                    <span class="me-3">
+                    <span className="me-3">
                       <i
-                        class="fa-solid fa-circle-check"
+                        className="fa-solid fa-circle-check"
                         aria-hidden="true"
                       ></i>
                     </span>
                     Get notiications on <strong>Email</strong>
                   </li>
                   <li>
-                    <span class="me-3">
+                    <span className="me-3">
                       <i
-                        class="fa-solid fa-circle-xmark"
+                        className="fa-solid fa-circle-xmark"
                         aria-hidden="true"
                       ></i>
                     </span>
                     Get notiications on <strong>WhatsApp</strong>
                   </li>
                   <li>
-                    <span class="me-3">
+                    <span className="me-3">
                       <i
-                        class="fa-solid fa-circle-xmark"
+                        className="fa-solid fa-circle-xmark"
                         aria-hidden="true"
                       ></i>
                     </span>
                     Get notiications on <strong>Text</strong>
                   </li>
                   <li>
-                    <span class="me-3">
+                    <span className="me-3">
                       <i
-                        class="fa-solid fa-circle-xmark"
+                        className="fa-solid fa-circle-xmark"
                         aria-hidden="true"
                       ></i>
                     </span>
@@ -209,7 +209,7 @@ const Pricing = () => {
                 <div className={`pricing-amount ${pricingType}`}>
                   <h1 className="d-inline-block mb-3">
                     <i
-                      class="fa-solid fa-indian-rupee-sign"
+                      className="fa-solid fa-indian-rupee-sign"
                       aria-hidden="true"
                     ></i>
                     {pricingType === 'yearly' ? '1,999 ' : '9,999'}
@@ -315,7 +315,7 @@ const Pricing = () => {
                 <div className={`pricing-amount ${pricingType}`}>
                   <h1 className="d-inline-block mb-3">
                     <i
-                      class="fa-solid fa-indian-rupee-sign"
+                      className="fa-solid fa-indian-rupee-sign"
                       aria-hidden="true"
                     ></i>
                     {pricingType === 'yearly' ? '2,999' : '11,999'}
@@ -325,83 +325,83 @@ const Pricing = () => {
                   </h5>
                 </div>
                 <h6 className="mb-4">What&apos;s included</h6>
-                <ul class="pricing-features mb-40 list-unstyled">
+                <ul className="pricing-features mb-40 list-unstyled">
                   <li>
-                    <span class="me-3">
+                    <span className="me-3">
                       <i
-                        class="fa-solid fa-circle-check"
+                        className="fa-solid fa-circle-check"
                         aria-hidden="true"
                       ></i>
                     </span>
                     Create <strong>Unlimited</strong> Asset or Document
                   </li>
                   <li>
-                    <span class="me-3">
+                    <span className="me-3">
                       <i
-                        class="fa-solid fa-circle-check"
+                        className="fa-solid fa-circle-check"
                         aria-hidden="true"
                       ></i>
                     </span>
                     Allowed Document Size: <strong>50 MB</strong> Per File
                   </li>
                   <li>
-                    <span class="me-3">
+                    <span className="me-3">
                       <i
-                        class="fa-solid fa-circle-check"
+                        className="fa-solid fa-circle-check"
                         aria-hidden="true"
                       ></i>
                     </span>
                     Upload Up to <strong>20 File</strong> Per Asset
                   </li>
                   <li>
-                    <span class="me-3">
+                    <span className="me-3">
                       <i
-                        class="fa-solid fa-circle-check"
+                        className="fa-solid fa-circle-check"
                         aria-hidden="true"
                       ></i>
                     </span>
                     <strong>Lifetime</strong> Wellness checker
                   </li>
                   <li>
-                    <span class="me-3">
+                    <span className="me-3">
                       <i
-                        class="fa-solid fa-circle-check"
+                        className="fa-solid fa-circle-check"
                         aria-hidden="true"
                       ></i>
                     </span>
                     Lifetime notifications
                   </li>
                   <li>
-                    <span class="me-3">
+                    <span className="me-3">
                       <i
-                        class="fa-solid fa-circle-check"
+                        className="fa-solid fa-circle-check"
                         aria-hidden="true"
                       ></i>
                     </span>
                     Get notications on <strong>Email</strong>
                   </li>
                   <li>
-                    <span class="me-3">
+                    <span className="me-3">
                       <i
-                        class="fa-solid fa-circle-check"
+                        className="fa-solid fa-circle-check"
                         aria-hidden="true"
                       ></i>
                     </span>
                     Get notiications on <strong>WhatsApp</strong>
                   </li>
                   <li>
-                    <span class="me-3">
+                    <span className="me-3">
                       <i
-                        class="fa-solid fa-circle-check"
+                        className="fa-solid fa-circle-check"
                         aria-hidden="true"
                       ></i>
                     </span>
                     Get notiications on <strong>SMS Text</strong>
                   </li>
                   <li>
-                    <span class="me-3">
+                    <span className="me-3">
                       <i
-                        class="fa-solid fa-circle-check"
+                        className="fa-solid fa-circle-check"
                         aria-hidden="true"
                       ></i>
                     </span>
@@ -415,37 +415,37 @@ const Pricing = () => {
             </div>
           </div>
         </div>
-        <div class="row justify-content-center mb-5 pt-60">
-          <div class="col-lg-3">
-            <div class="media d-flex align-items-center py-2 p-sm-2">
-              <div class="icon-box mb-0 bg-primary-soft rounded-circle d-block me-3">
+        <div className="row justify-content-center mb-5 pt-60">
+          <div className="col-lg-3">
+            <div className="media d-flex align-items-center py-2 p-sm-2">
+              <div className="icon-box mb-0 bg-primary-soft rounded-circle d-block me-3">
                 <i
-                  class="fas fa-credit-card text-primary"
+                  className="fas fa-credit-card text-primary"
                   aria-hidden="true"
                 ></i>
               </div>
-              <div class="media-body fw-medium h6 mb-0">
+              <div className="media-body fw-medium h6 mb-0">
                 No credit card required
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
-            <div class="media d-flex align-items-center py-2 p-sm-2">
-              <div class="icon-box mb-0 bg-success-soft rounded-circle d-block me-3">
+          <div className="col-lg-3">
+            <div className="media d-flex align-items-center py-2 p-sm-2">
+              <div className="icon-box mb-0 bg-success-soft rounded-circle d-block me-3">
                 <i
-                  class="fas fa-calendar-check text-success"
+                  className="fas fa-calendar-check text-success"
                   aria-hidden="true"
                 ></i>
               </div>
-              <div class="media-body fw-medium h6 mb-0">Try for FREE</div>
+              <div className="media-body fw-medium h6 mb-0">Try for FREE</div>
             </div>
           </div>
-          {/* <!-- <div class="col-lg-3">
-                        <div class="media d-flex align-items-center py-2 p-sm-2">
-                            <div class="icon-box mb-0 bg-danger-soft rounded-circle d-block me-3">
-                                <i class="fas fa-calendar-times text-danger"></i>
+          {/* <!-- <div className="col-lg-3">
+                        <div className="media d-flex align-items-center py-2 p-sm-2">
+                            <div className="icon-box mb-0 bg-danger-soft rounded-circle d-block me-3">
+                                <i className="fas fa-calendar-times text-danger"></i>
                             </div>
-                            <div class="media-body fw-medium h6 mb-0">
+                            <div className="media-body fw-medium h6 mb-0">
                                 Cancel anytime
                             </div>
                         </div>

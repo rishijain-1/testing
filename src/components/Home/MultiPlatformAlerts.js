@@ -50,17 +50,17 @@ const MultiPlatformAlerts = () => {
               <div className="hd-support-content">
                 <div className="hd-title">
                   <h2 className="mb-30 clr-text">
-                    <mark class="bg-transparent p-0 position-relative ail-highlighted-text">
+                    <mark className="bg-transparent p-0 position-relative ail-highlighted-text">
                       Multi-Platform
                       <img
                         src="/home/line-shape.png"
                         alt="arrow"
-                        class="position-absolute line-shape"
+                        className="position-absolute line-shape"
                       />
                     </mark>{' '}
                     Support for Notifications & Wellness Checks
                   </h2>
-                  <p class="mb-0">
+                  <p className="mb-0">
                     We use{' '}
                     <strong>WhatsApp, Email, Text Messages, Telegram,</strong>{' '}
                     and <strong>Bot Calls</strong> to deliver important

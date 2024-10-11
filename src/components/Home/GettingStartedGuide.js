@@ -22,7 +22,7 @@ const GettingStartedGuide = () => {
               <div className="hd-title text-center text-lg-start">
                 <h2 className="clr-text">
                   Start with{' '}
-                  <span class="ail-highlighted-text"> IAmStillAlive </span>
+                  <span className="ail-highlighted-text"> IAmStillAlive </span>
                   in <br />
                   <mark className="bg-transparent p-0 position-relative ms-1">
                     1, 2, 3{' '}
@@ -42,7 +42,7 @@ const GettingStartedGuide = () => {
               <div className="col-xl-4 col-lg-6">
                 <div className="htw-single-box bg-white position-relative py-5 px-4 rounded z-1">
                   <span className="number-serial position-absolute">1</span>
-                  <span class="icon-wrapper">
+                  <span className="icon-wrapper">
                     <img
                       src="/home/GettingStartedGuide/icons/signup-for-free-gradient.svg"
                       alt=""

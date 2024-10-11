@@ -180,11 +180,11 @@ const CustomerFeeback = () => {
                   </div>
                 </div>
               </div>
-              <div class="text-center d-none d-xl-block">
+              <div className="text-center d-none d-xl-block">
                 <a
                   href="/"
                   target="_blank"
-                  class="btn ail-gd-bg dark-bg-hover rounded-5 text-white fs-16 border-0 mt-30"
+                  className="btn ail-gd-bg dark-bg-hover rounded-5 text-white fs-16 border-0 mt-30"
                 >
                   Get Started - It&apos;s Free
                 </a>
