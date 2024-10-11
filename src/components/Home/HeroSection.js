@@ -61,7 +61,8 @@ const HeroSection = () => {
                 </Link>
                 <ul className="crm-special-features list-unstyled p-0 m-0 d-flex align-items-center justify-content-center flex-wrap mt-4">
                   <li>
-                    <span className="dot me-2"></span>No Debit/Credit Card Required
+                    <span className="dot me-2"></span>No Debit/Credit Card
+                    Required
                   </li>
                 </ul>
               </div>
