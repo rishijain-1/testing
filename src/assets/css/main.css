@@ -44682,6 +44682,10 @@ span.mk-subtitle {
   opacity: 1;
 }
 
+.boxes-box {
+    padding-bottom: 20px !important;
+}
+
 .ca-client-slider .swiper-wrapper {
   transition-timing-function: linear;
 }

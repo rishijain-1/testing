@@ -799,19 +799,22 @@ $spaces: (
 }
 
 .ca-subheading-gradient {
-  position: relative;
-  isolation: isolate;
+  background: linear-gradient(90deg, #ffc8c6, #b3bded);
+    border-radius: 10px;
+    height: 4px;
+    margin-bottom: 16px;
+    width: 95px;
 
-  &::after {
-    content: '';
-    position: absolute;
-    inset-block-start: 50%;
-    inset-inline-start: calc(100% + 1rem);
-    transform: translateY(-50%);
-    width: 6rem;
-    height: 0.25rem;
-    background: linear-gradient(287.85deg, #ff0766 0%, #ff7e5d 95.32%);
-  }
+  // &::after {
+  //   content: '';
+  //   position: absolute;
+  //   inset-block-start: 50%;
+  //   inset-inline-start: calc(0% + 1rem);
+  //   transform: translateY(-50%);
+  //   width: 6rem;
+  //   height: 0.25rem;
+  //   background: linear-gradient(287.85deg, #ff0766 0%, #ff7e5d 95.32%);
+  // }
 }
 
 // Section Style
@@ -1358,17 +1361,28 @@ $spaces: (
     transition-timing-function: linear;
   }
 }
+.boxes-box {
+    padding-bottom: 20px !important;
+}
 
 .showcase-card {
-  position: relative;
-  isolation: isolate;
-  overflow: hidden;
+    background: #fff;
+    display: block;
+    height: 100%;
+    padding: 32px 24px;
+    position: relative;
+    transition: all .3s ease-in-out;
+    width: 100%;
 
   &:hover {
-    .showcase-card__content {
-      inset-block-end: 1.5rem;
-      transform: translateY(0);
-    }
+    border-radius: 0 0 100px 0;
+  }
+
+  &_cardtext {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
   }
 
   &__content {

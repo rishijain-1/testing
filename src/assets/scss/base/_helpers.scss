@@ -1,6 +1,7 @@
 .ptb-120 {
   padding: 120px 0;
 }
+
 .ptb-100 {
   padding: 100px 0;
 }
@@ -180,4 +181,18 @@
 }
 .blog-title {
   color: $dark;
+}
+.h2.main-text-values {
+    margin-bottom: 64px;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: -1.4px;
+    line-height: 60px;
+}
+.h1.main-text-values {
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: -1.4px;
+    line-height: 60px;
 }

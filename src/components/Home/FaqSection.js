@@ -110,7 +110,11 @@ const FaqSection = () => {
               Ans
             </span>
             <div className="tab-content text-black">
-              <div className="tab-pane fade active show" id="faq-1" role="tabpanel">
+              <div
+                className="tab-pane fade active show"
+                id="faq-1"
+                role="tabpanel"
+              >
                 <div className="border border-blue-clr rounded-4 padding-5 padding-xl-10 position-relative z-1">
                   <p className="fs-18">
                     Log in to your IAmStillAlive account and navigate to your

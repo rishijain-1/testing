@@ -15,8 +15,8 @@ const Pricing = () => {
               <div className="section-title text-center text-lg-start">
                 <h2 className="mb-0 sc-heading-color clr-text">
                   Choose the{' '}
-                  <make className="ail-highlighted-text">Plan that’s </make>Right
-                  for you
+                  <make className="ail-highlighted-text">Plan that’s </make>
+                  Right for you
                 </h2>
               </div>
             </div>
