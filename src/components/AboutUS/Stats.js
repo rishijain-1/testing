@@ -1,22 +1,4 @@
 import Link from 'next/link';
-import { useState } from 'react';
-const accordionData = [
-  {
-    id: 'collapseOne',
-    title: '',
-    content: '',
-  },
-  {
-    id: 'collapseTwo',
-    title: '',
-    content: '',
-  },
-  {
-    id: 'collapseThree',
-    title: '',
-    content: '',
-  },
-];
 const accordionDataTwo = [
   {
     id: '2',
@@ -52,8 +34,7 @@ const accordionDataThree = [
   },
 ];
 const Stats = () => {
-  const [activeAccordion, setActiveAccordion] = useState(accordionData[0].id);
-
+ 
   return (
     <>
       <div className="it-company-faq-area position-relative overflow-hidden">
@@ -71,9 +52,7 @@ const Stats = () => {
                   <div className="accordion-item " key={item.id}>
                     <h2 className="accordion-header">
                       <div
-                        className={`accordion-button bg-black text-white d-flex align-items-center  justify-content-between ${
-                          activeAccordion === item.id ? '' : 'collapsed'
-                        }`}
+                        className={`accordion-button bg-black text-white d-flex align-items-center  justify-content-between `}
                         type=""
                       >
                         <div className="p-2">{item.title}</div>
@@ -93,9 +72,7 @@ const Stats = () => {
                   <div className="accordion-item" key={item.id}>
                     <h2 className="accordion-header">
                       <div
-                        className={`accordion-button text-white bg-black d-flex align-items-center  justify-content-between ${
-                          activeAccordion === item.id ? '' : 'collapsed'
-                        }`}
+                        className={`accordion-button text-white bg-black d-flex align-items-center  justify-content-between`}
                         type=""
                       >
                         <div className="p-2">{item.title}</div>
