@@ -54,7 +54,6 @@ const accordionDataThree = [
 const Stats = () => {
   const [activeAccordion, setActiveAccordion] = useState(accordionData[0].id);
 
-  
   return (
     <>
       <div className="it-company-faq-area position-relative overflow-hidden">
