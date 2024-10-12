@@ -34,7 +34,6 @@ const accordionDataThree = [
   },
 ];
 const Stats = () => {
- 
   return (
     <>
       <div className="it-company-faq-area position-relative overflow-hidden">
