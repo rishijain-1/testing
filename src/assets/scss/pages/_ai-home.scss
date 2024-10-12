@@ -46,7 +46,22 @@
 }
 
 .aih-border-style-two {
-  border-left: 2px solid $ins-primary;
+  border-left: 2px solid black;
+}
+
+.vertical-line {
+  border-left: 2px solid #74717a;
+  display: block;
+  margin-left: 35px;
+  margin-right: 60px;
+}
+@media (max-width: 991px) {
+  .vertical-line {
+    border-left: 0px;
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
 
 .ptb-30 {

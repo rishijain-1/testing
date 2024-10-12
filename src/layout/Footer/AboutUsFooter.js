@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function AboutUsFooter() {
   return (
     <footer className="game-footer-bg">
-      <div className="container pl-100 pr-100">
+      <div className="container">
         <div className="row ptb-120  ">
           <div className="col-lg-6 col-md-6">
             <div className="row">

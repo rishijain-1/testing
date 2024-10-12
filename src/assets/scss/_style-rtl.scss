@@ -94,6 +94,9 @@ a.navbar-toggler:focus {
     text-align: revert;
   }
 }
+.hero-wrapper-about-us {
+  overflow: hidden;
+}
 
 .hero-screen-wrap {
   margin-right: 0;
@@ -183,9 +186,32 @@ a.navbar-toggler:focus {
     var(--bs-dark) 0
   );
 }
+.bg-about {
+  background: linear-gradient(
+    90deg,
+    rgba(182, 212, 235, 1) 0%,
+    rgba(192, 226, 252, 1) 19%,
+    rgba(255, 212, 230, 1) 100%
+  );
+}
 
 .bg-gradient {
   background: linear-gradient(90deg, #1e38a3, #021048) !important;
+}
+
+.slp-gradient-background {
+  background: radial-gradient(
+      50.08% 44.51% at 100% 100%,
+      rgba(169, 137, 245, 0.2) 0,
+      rgba(119, 89, 194, 0) 100%
+    ),
+    radial-gradient(
+      60.76% 48.01% at 0 100%,
+      rgba(229, 41, 12, 0.2) 0,
+      rgba(166, 28, 7, 0) 100%
+    ),
+    #fff;
+  padding: 60px 0;
 }
 
 .left-radius {
@@ -769,6 +795,7 @@ a.navbar-toggler:focus {
     inset: 120px 50% 0px 40px;
   }
 }
+
 .about-36__box {
   left: auto;
   right: 0;

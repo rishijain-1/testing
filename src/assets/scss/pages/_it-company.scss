@@ -615,7 +615,10 @@
   }
 
   .ca-accordion .accordion-header {
-    border-bottom: 1px solid $mk-border;
+    border-top: 1px solid rgb(212, 207, 207);
+    @media (max-width: 768px) {
+      border-bottom: none;
+    }
   }
 
   .ca-accordion .accordion-body {

@@ -2,14 +2,14 @@ const Values = () => {
   return (
     <>
       <section className="digi-services dat-bg pt-60 pb-120">
-        <div className="container pl-100 pr-100">
+        <div className="container">
           <div className="row">
             <div className="col-lg-12 col-12">
               <div className="mb-4 mb-sm-5">
                 <div className="ca-subheading-gradient mb-3"></div>
-                <h2 className=" h2 main-text-values">
+                <h1 className=" h2 main-text-value">
                   Get.Grahak&apos;s values
-                </h2>
+                </h1>
               </div>
             </div>
           </div>
