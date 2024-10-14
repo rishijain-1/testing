@@ -1913,7 +1913,7 @@ progress {
 .container-lg,
 .container-md,
 .container-sm {
-  --bs-gutter-x: 1.5rem;
+  --bs-gutter-x: 2rem;
   --bs-gutter-y: 0;
   width: 100%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
@@ -1949,7 +1949,7 @@ progress {
   .container-md,
   .container-sm,
   .container {
-    max-width: 1140px;
+    max-width: 1040px;
   }
 }
 @media (min-width: 1400px) {
@@ -1959,7 +1959,7 @@ progress {
   .container-md,
   .container-sm,
   .container {
-    max-width: 1320px;
+    max-width: 1220px;
   }
 }
 :root {
@@ -44683,7 +44683,7 @@ span.mk-subtitle {
 }
 
 .boxes-box {
-  padding-bottom: 20px !important;
+    padding-bottom: 20px !important;
 }
 
 .ca-client-slider .swiper-wrapper {

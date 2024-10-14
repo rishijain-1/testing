@@ -682,7 +682,7 @@ progress {
 .container-sm,
 .container-xl,
 .container-xxl {
-  --bs-gutter-x: 1.5rem;
+  --bs-gutter-x: 5rem;
   --bs-gutter-y: 0;
   width: 100%;
   padding-left: calc(var(--bs-gutter-x) * 0.5);
@@ -717,17 +717,17 @@ progress {
   .container-md,
   .container-sm,
   .container-xl {
-    max-width: 1140px;
+    max-width: 1040px;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1550px) {
   .container,
   .container-lg,
   .container-md,
   .container-sm,
   .container-xl,
   .container-xxl {
-    max-width: 1320px;
+    max-width: 1220px;
   }
 }
 .row {

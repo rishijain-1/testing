@@ -10784,7 +10784,7 @@ progress {
 .container-sm,
 .container-xl,
 .container-xxl {
-  --bs-gutter-x: 1.5rem;
+  --bs-gutter-x: 2rem;
   --bs-gutter-y: 0;
   width: 100%;
   padding-left: calc(var(--bs-gutter-x) * 0.5);
@@ -10820,7 +10820,7 @@ progress {
   .container-md,
   .container-sm,
   .container-xl {
-    max-width: 1128px;
+    max-width: 1028px;
   }
 }
 @media (min-width: 1400px) {
@@ -10830,7 +10830,7 @@ progress {
   .container-sm,
   .container-xl,
   .container-xxl {
-    max-width: 1320px;
+    max-width: 1220px;
   }
 }
 .row {
@@ -53626,7 +53626,7 @@ span.mk-subtitle {
   background-color: #fff;
   opacity: 1;
 }
-.boxes-box {
+.boxes-box{
   padding-bottom: 20px !important;
 }
 

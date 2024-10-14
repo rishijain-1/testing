@@ -10,17 +10,21 @@ import WhatWeDo from '@components/AboutUS/WhatWeDo';
 import HeroSection from '@components/AboutUS/HeroSection';
 import StatisticsOverview from '@components/AboutUS/StatisticsOverview';
 import Overview from '@components/AboutUS/Overview';
+import Evolution from '@components/AboutUS/Evolution';
+import OurTeam from '@components/AboutUS/OurTeam';
 
 const AboutUs = () => {
   return (
     <Layout>
-      <Navbar />
+      <Navbar insurance />
       <HeroSection />
       <WhatWeDo />
       <StatisticsOverview />
       <OurMission />
       <Values />
+      <Evolution />
       <Workings />
+      <OurTeam />
       <Experience />
       <Overview />
       <AboutUsFooter />

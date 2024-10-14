@@ -95,7 +95,7 @@ a.navbar-toggler:focus {
   }
 }
 .hero-wrapper-about-us {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .hero-screen-wrap {
@@ -186,18 +186,18 @@ a.navbar-toggler:focus {
     var(--bs-dark) 0
   );
 }
-.bg-about {
-  background: linear-gradient(
-    90deg,
-    rgba(182, 212, 235, 1) 0%,
-    rgba(192, 226, 252, 1) 19%,
-    rgba(255, 212, 230, 1) 100%
-  );
+.bg-about{
+  background: linear-gradient(90deg, rgba(182,212,235,1) 0%, rgba(192,226,252,1) 19%, rgba(255,212,230,1) 100%);
+}
+.bg-purple{
+  background: #6d33cc;
+  padding: 32px;
 }
 
 .bg-gradient {
   background: linear-gradient(90deg, #1e38a3, #021048) !important;
 }
+
 
 .slp-gradient-background {
   background: radial-gradient(
@@ -794,6 +794,7 @@ a.navbar-toggler:focus {
   .cta-section::after {
     inset: 120px 50% 0px 40px;
   }
+  
 }
 
 .about-36__box {

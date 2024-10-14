@@ -15,10 +15,10 @@ const Workings = () => {
             <p class="p-3">
               Join our globally connected team at GetGrahak and experience a
               work culture that embraces diversity, encourages individuality,
-              and values your work-life harmony. We&apos;re dedicated to fostering an
-              all-remote environment where your unique voice is not only
-              welcomed but celebrated. Explore our open positions and embark on
-              a fulfilling journey with us.
+              and values your work-life harmony. We&apos;re dedicated to
+              fostering an all-remote environment where your unique voice is not
+              only welcomed but celebrated. Explore our open positions and
+              embark on a fulfilling journey with us.
             </p>
           </div>
         </div>
