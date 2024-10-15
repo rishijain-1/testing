@@ -150,6 +150,16 @@
   ) !important;
 }
 .bg-gradient-experience {
-  background: radial-gradient(50.08% 44.51% at 100% 100%, rgba(169, 137, 245, .2) 0, rgba(119, 89, 194, 0) 100%), radial-gradient(60.76% 48.01% at 0 100%, rgba(226, 67, 41, .2) 0, rgba(226, 67, 41, 0) 100%), #fff !important;
-    padding: 60px 0;
+  background: radial-gradient(
+      50.08% 44.51% at 100% 100%,
+      rgba(169, 137, 245, 0.2) 0,
+      rgba(119, 89, 194, 0) 100%
+    ),
+    radial-gradient(
+      60.76% 48.01% at 0 100%,
+      rgba(226, 67, 41, 0.2) 0,
+      rgba(226, 67, 41, 0) 100%
+    ),
+    #fff !important;
+  padding: 60px 0;
 }
