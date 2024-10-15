@@ -26,24 +26,23 @@ const Post = ({ post }) => {
 
 export async function getStaticPaths() {
   try {
-    const res = await axiosInstance.get('/posts'); 
-    const posts = await res.data; 
+    const res = await axiosInstance.get('/posts');
+    const posts = await res.data;
 
     const paths = posts.map((post) => ({
       params: { slug: post.slug },
     }));
 
-    return { paths, fallback: true }; 
+    return { paths, fallback: true };
   } catch (error) {
-    console.error('Failed to fetch posts:', error);
-    return { paths: [], fallback: true }; 
+    return { paths: [], fallback: true };
   }
 }
 
 export async function getStaticProps({ params }) {
   try {
     const res = await axiosInstance.get(`/posts?slug=${params.slug}`);
-    const post = await res.data; 
+    const post = await res.data;
 
     if (!post.length) {
       return {
@@ -53,14 +52,14 @@ export async function getStaticProps({ params }) {
 
     return {
       props: {
-        post: post[0], 
+        post: post[0],
       },
-      revalidate: 10, 
+      revalidate: 10,
     };
   } catch (error) {
-    console.error('Failed to fetch post:', error);
+    
     return {
-      notFound: true, 
+      notFound: true,
     };
   }
 }

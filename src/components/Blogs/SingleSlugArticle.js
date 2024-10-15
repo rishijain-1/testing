@@ -1,9 +1,7 @@
 import React from 'react';
-import Image from 'next/image';
 import ProfileCard from './ProfileCard';
 
 const SingleSlugArticle = ({ post }) => {
-  console.log(post)
   return (
     <>
       <section className="blog-details ptb-120">

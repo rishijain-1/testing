@@ -8,7 +8,7 @@ import Header from '@components/Common/Header';
 import axiosInstance from 'src/services/axiosInstance';
 
 const Blogs = ({ posts }) => {
-  console.log(posts)
+  
   return (
     <Layout title="Blog" desc="This is blog page">
       <Navbar />
@@ -16,7 +16,7 @@ const Blogs = ({ posts }) => {
         title="Our Latest News and Blogs"
         desc="Completely integrate equity invested partnerships without revolutionary systems. Monotonectally network pandemic e-services via bricks-and-clicks information."
       />
-      <Articles posts={posts} /> 
+      <Articles posts={posts} />
       <Footer />
     </Layout>
   );
@@ -27,19 +27,18 @@ export async function getServerSideProps() {
   try {
     const response = await axiosInstance.get('/posts', {
       params: {
-        per_page: 20,  
-        page: 1,       
-        status: 'publish', 
+        per_page: 20,
+        page: 1,
+        status: 'publish',
       },
     });
 
     return {
       props: {
-        posts: response.data, 
+        posts: response.data,
       },
     };
   } catch (error) {
-    console.error('Error fetching posts:', error);
     return {
       props: {
         posts: [], // Pass an empty array if there's an error

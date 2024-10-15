@@ -1,10 +1,10 @@
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
-import dynamic from "next/dynamic";
-import { FaFacebookF, FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
+import dynamic from 'next/dynamic';
+import { FaFacebookF, FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 
-const ProfileCard = ({author}) => {
+const ProfileCard = ({ author }) => {
   return (
     <div className="author-wrap text-center bg-light p-5 sticky-sidebar rounded-custom mt-5 mt-lg-0">
       <Image
@@ -36,7 +36,7 @@ const ProfileCard = ({author}) => {
         <li className="list-inline-item">
           <Link legacyBehavior href="#!" passHref>
             <a className="fab">
-              {" "}
+              {' '}
               <FaGithub />
             </a>
           </Link>
