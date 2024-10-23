@@ -5,7 +5,7 @@ import { Navigation, Pagination, Autoplay } from 'swiper';
 
 import 'swiper/swiper-bundle.min.css';
 
-import SectionTitle from '../common/SectionTitle';
+import SectionTitle from '../Common/SectionTitle';
 import Link from 'next/link';
 
 const HeroSection = () => {

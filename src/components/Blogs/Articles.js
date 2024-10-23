@@ -3,7 +3,6 @@ import React from 'react';
 import Link from 'next/link';
 
 const Articles = ({ posts, categories }) => {
- 
   const categoryColors = {
     1: 'bg-primary-soft',
     2: 'bg-success-soft',
