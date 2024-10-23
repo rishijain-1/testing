@@ -169,10 +169,7 @@
         }
         &[aria-expanded='true'] {
           .pay-faq-icon {
-            background-color: $dg-warning-color;
-            img {
-              filter: brightness(3.5);
-            }
+            background-color: $dg-color-1;
           }
           &::after {
             background-color: transparent;
@@ -211,7 +208,7 @@
   &:hover {
     background-color: $pay-gw-color;
     .pay-card-icon {
-      background-color: $dg-warning-color;
+      background-color: $dg-color-1;
       img {
         filter: invert(1) contrast(3.5);
       }

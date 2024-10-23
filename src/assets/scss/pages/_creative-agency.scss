@@ -425,33 +425,7 @@ $spaces: (
 .bgc-background {
   background-color: #f4f6ff;
 }
-.purple-background {
-  background-color: #f6f3fe;
-  height: 100%;
-  left: 10%;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 20vw;
-  z-index: -1;
-}
-@media (max-width: 575px) {
-  .purple-background {
-    height: 30%;
-    top: 30%;
-    left: 0;
-    opacity: 1;
-    transform: none;
-    width: 100vw;
-  }
-}
 
-@media (min-width: 768px) {
-  .purple-background {
-    left: 50%;
-    width: 20vw;
-  }
-}
 .bgc-dark-blue {
   background-color: #0b1958;
 }
@@ -825,22 +799,19 @@ $spaces: (
 }
 
 .ca-subheading-gradient {
-  background: linear-gradient(90deg, #ffc8c6, #b3bded);
-  border-radius: 10px;
-  height: 4px;
-  margin-bottom: 16px;
-  width: 95px;
+  position: relative;
+  isolation: isolate;
 
-  // &::after {
-  //   content: '';
-  //   position: absolute;
-  //   inset-block-start: 50%;
-  //   inset-inline-start: calc(0% + 1rem);
-  //   transform: translateY(-50%);
-  //   width: 6rem;
-  //   height: 0.25rem;
-  //   background: linear-gradient(287.85deg, #ff0766 0%, #ff7e5d 95.32%);
-  // }
+  &::after {
+    content: '';
+    position: absolute;
+    inset-block-start: 50%;
+    inset-inline-start: calc(100% + 1rem);
+    transform: translateY(-50%);
+    width: 6rem;
+    height: 0.25rem;
+    background: linear-gradient(287.85deg, #ff0766 0%, #ff7e5d 95.32%);
+  }
 }
 
 // Section Style
@@ -1387,28 +1358,17 @@ $spaces: (
     transition-timing-function: linear;
   }
 }
-.boxes-box {
-  padding-bottom: 20px !important;
-}
 
 .showcase-card {
-  background: #fff;
-  display: block;
-  height: 100%;
-  padding: 32px 24px;
   position: relative;
-  transition: all 0.3s ease-in-out;
-  width: 100%;
+  isolation: isolate;
+  overflow: hidden;
 
   &:hover {
-    border-radius: 0 0 100px 0;
-  }
-
-  &_cardtext {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #000;
+    .showcase-card__content {
+      inset-block-end: 1.5rem;
+      transform: translateY(0);
+    }
   }
 
   &__content {

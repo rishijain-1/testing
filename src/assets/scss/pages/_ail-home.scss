@@ -216,22 +216,6 @@
   background-position: center;
   background-size: cover;
 }
-.ail-info-card-area1 {
-  background: linear-gradient(90.32deg, #e3d6ff, #ffd4d8);
-  border-radius: 4px;
-  color: #171321;
-  display: flex;
-  justify-content: space-between;
-  padding: 24px;
-  flex-wrap: wrap;
-}
-.ail-info-card-text {
-  @media (min-width: 768px) {
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 24px;
-  }
-}
 .ail-card-item {
   // background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)) padding-box,linear-gradient(324.79deg, #ff076657 -4.77%, #ff7e5d80 107.43%) border-box;
   // border: 1px solid rgba(0,0,0,0) !important;

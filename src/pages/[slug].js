@@ -16,7 +16,7 @@ const Post = ({ post }) => {
 
   return (
     <Layout title={post.title.rendered}>
-      <Navbar classOption="navbar-light" />
+      <Navbar insurance />
       <Header title={post.title.rendered} />
       <SingleSlugArticle post={post} />
       <Footer />
@@ -57,7 +57,6 @@ export async function getStaticProps({ params }) {
       revalidate: 10,
     };
   } catch (error) {
-    
     return {
       notFound: true,
     };

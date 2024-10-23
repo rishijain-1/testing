@@ -10784,7 +10784,7 @@ progress {
 .container-sm,
 .container-xl,
 .container-xxl {
-  --bs-gutter-x: 2rem;
+  --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   width: 100%;
   padding-left: calc(var(--bs-gutter-x) * 0.5);
@@ -10820,7 +10820,7 @@ progress {
   .container-md,
   .container-sm,
   .container-xl {
-    max-width: 1028px;
+    max-width: 1140px;
   }
 }
 @media (min-width: 1400px) {
@@ -10830,7 +10830,7 @@ progress {
   .container-sm,
   .container-xl,
   .container-xxl {
-    max-width: 1220px;
+    max-width: 1320px;
   }
 }
 .row {
@@ -14984,8 +14984,8 @@ fieldset:disabled .btn {
 .accordion-item {
   color: var(--bs-accordion-color);
   background-color: var(--bs-accordion-bg);
-  border: var(--bs-accordion-border-width) solid
-    var(--bs-accordion-border-color);
+  /* border: var(--bs-accordion-border-width) solid
+    var(--bs-accordion-border-color); */
 }
 
 .accordion-item:first-of-type {
@@ -53626,9 +53626,6 @@ span.mk-subtitle {
   background-color: #fff;
   opacity: 1;
 }
-.boxes-box {
-  padding-bottom: 20px !important;
-}
 
 .ca-client-slider .swiper-wrapper {
   transition-timing-function: linear;
@@ -56398,7 +56395,6 @@ span.mk-subtitle {
   padding-bottom: 15px;
 }
 .it-company-faq-area .ca-accordion .accordion-header {
-  border-top: 1px solid #e7e7e7;
   border-bottom: 1px solid #e7e7e7;
 }
 .it-company-faq-area .ca-accordion .accordion-body {
